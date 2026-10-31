@@ -1,0 +1,23 @@
+The search for ""Auto-release: if the buyer doesn't confirm within 7 days after shipment, the farmer can claim the funds"" returned the following summary:
+This is a standard **escrow protection and dispute-resolution policy** commonly used in e-commerce platforms, agricultural marketplaces, supply-chain apps, or B2B platforms connecting farmers directly with buyers (such as wholesalers, restaurants, or consumers). 
+
+Here is a breakdown of how such a clause typically works and why it is put in place:
+
+### 1. How It Works
+* **The Flow of Funds:** When a buyer places an order, their payment isn’t sent directly to the farmer immediately. Instead, it is held securely in an intermediary escrow account managed by the platform.
+* **The Shipment:** The farmer ships the produce and updates the tracking or fulfillment status on the platform.
+* **The Confirmation Window:** The buyer has a set window (in this case, **7 days** from the date of shipment) to inspect the goods upon delivery and manually confirm receipt/satisfaction on the platform.
+* **The Auto-Release:** If the buyer does nothing (neither confirms receipt nor raises a dispute/complaint about damaged or missing goods) within those 7 days, the system **automatically releases** the funds to the farmer's account.
+
+### 2. Why Platforms Use This Rule
+* **Protects Farmers from Ghosting:** It prevents buyers from intentionally or accidentally withholding funds after successfully receiving their produce. Farmers get their money in a predictable timeframe without relying on the buyer's manual cooperation.
+* **Encourages Timely Inspection:** It forces buyers to inspect shipments promptly and report any issues (like spoilage or wrong items) within a reasonable window rather than waiting weeks to dispute a transaction.
+* **Reduces Platform Friction:** It automates the payout process, reducing the need for customer support to manually intervene in every completed transaction.
+
+### 3. What to Watch Out For
+* **Dispute Window:** If there *is* a legitimate issue with the shipment (e.g., the produce arrived rotten or damaged), the buyer typically must **file a formal dispute** *before* the 7-day timer expires. Letting the timer run out usually means the buyer forfeits their right to an automatic refund through the platform.
+* **Tracking Proof:** For this policy to favor the farmer safely, the platform usually requires verifiable proof of shipment (such as a logistics receipt or courier tracking details) to prevent fraudulent claims. 
+
+Are you reviewing a contract or setting up terms for an agricultural platform? Let me know if you need help drafting or analyzing similar clauses!
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+An unexpected error occurred:
+
+[Error: EPERM: operation not permitted, mkdir 'C:\Users\dell\AppData\Local\hardhat-nodejs\Data'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'mkdir',
+  path: 'C:\\Users\\dell\\AppData\\Local\\hardhat-nodejs\\Data'
+}

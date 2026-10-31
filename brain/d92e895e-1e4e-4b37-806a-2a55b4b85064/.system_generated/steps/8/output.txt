@@ -1,0 +1,59 @@
+The search for ""enum OrderStatus" "Placed" "Shipped" "Delivered" "Completed" "Disputed"" returned the following summary:
+Here is how you might typically define and use an `OrderStatus` enumeration in code using different popular programming languages, based on the lifecycle states you provided: **Placed**, **Shipped**, **Delivered**, **Completed**, and **Disputed**.
+
+### 1. Java
+```java
+public enum OrderStatus {
+    PLACED,
+    SHIPPED,
+    DELIVERED,
+    COMPLETED,
+    DISPUTED
+}
+```
+
+### 2. TypeScript / JavaScript
+```typescript
+export enum OrderStatus {
+    Placed = "PLACED",
+    Shipped = "SHIPPED",
+    Delivered = "DELIVERED",
+    Completed = "COMPLETED",
+    Disputed = "DISPUTED"
+}
+```
+
+### 3. Python (`enum` module)
+```python
+from enum import Enum, auto
+
+class OrderStatus(Enum):
+    PLACED = auto()
+    SHIPPED = auto()
+    DELIVERED = auto()
+    COMPLETED = auto()
+    DISPUTED = auto()
+```
+
+### 4. C#
+```csharp
+public enum OrderStatus
+{
+    Placed,
+    Shipped,
+    Delivered,
+    Completed,
+    Disputed
+}
+```
+
+---
+
+### Brief Breakdown of the States:
+* **Placed:** The customer has successfully submitted and paid for the order, and it is awaiting fulfillment/processing.
+* **Shipped:** The order has left the warehouse and is currently in transit with a logistics/delivery carrier.
+* **Delivered:** The carrier has successfully dropped off the package at the destination address.
+* **Completed:** The transaction is fully closed, usually after a return window has passed or the customer has explicitly finalized the order.
+* **Disputed:** An issue has been raised by the customer (e.g., damaged goods, missing items, or payment chargebacks), pausing normal lifecycle completion until resolved.
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

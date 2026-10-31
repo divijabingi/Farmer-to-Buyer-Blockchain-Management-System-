@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+v24.17.0
+11.13.0

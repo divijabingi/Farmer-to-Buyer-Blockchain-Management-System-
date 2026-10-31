@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Users\dell\.gemini\antigravity\scratch
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        25-10-2026     21:16                farmer-marketplace                                                   
+
+

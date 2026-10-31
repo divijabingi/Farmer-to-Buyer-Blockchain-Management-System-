@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+Downloading compiler 0.8.20
+Error HH502: Couldn't download compiler version list. Please check your internet connection and try again.
+
+For more info go to https://v2.hardhat.org/HH502 or run Hardhat with --show-stack-traces

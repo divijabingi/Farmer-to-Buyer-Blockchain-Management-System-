@@ -1,0 +1,169 @@
+I1025 21:59:02.398406      51 server.go:1771] Starting language server process with pid 21152
+I1025 21:59:02.401748      51 server.go:1827] Language server version: 2.26.0
+I1025 21:59:02.402296      51 server.go:716] Language server will attempt to listen on host localhost
+I1025 21:59:02.437999      51 server.go:731] Language server listening on random port at 50107 for HTTPS (gRPC)
+I1025 21:59:02.439105      51 server.go:739] Language server listening on random port at 55357 for HTTP
+I1025 21:59:02.973382      51 auth_provider.go:1325] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1025 21:59:02.973382      51 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1025 21:59:02.973382      51 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1025 21:59:02.973382      51 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1025 21:59:02.998490     115 store_client.go:714] summary store: starting background reconciliation (trigger=startup)
+I1025 21:59:03.000065     115 store_client.go:764] summary store: reconciliation complete, synced 1 records
+I1025 21:59:03.161824      40 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1025 21:59:03.161824      40 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1025 21:59:03.161824      40 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1025 21:59:05.257897      45 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6c9dae1a14666e42
+I1025 21:59:05.281695      40 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x700fd40cfaf0952f
+W1025 21:59:05.868648      51 defaults.go:732] failed to get cs path: cs path /usr/bin/cs invalid
+I1025 21:59:05.870411      51 manager.go:119] Creating trajectory store manager with proto store and SQLite store
+I1025 21:59:07.053792     149 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8415384bc3a304e8
+I1025 21:59:08.494388      40 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb771517bc8df18a5
+I1025 21:59:08.498743      45 remote_agent.go:167] Remote agent fastpush pin gate changed: false -> true
+I1025 21:59:08.500990      90 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1025 21:59:08.502161      90 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:08.502722      90 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1025 21:59:08.504678      90 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:08.504678      90 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1025 21:59:08.505538      90 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:08.505538      90 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1025 21:59:08.505538      90 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1025 21:59:08.506076      90 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:08.506722      90 manager.go:88] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1025 21:59:08.506722      90 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1025 21:59:08.618480      51 server.go:1538] Serving UI bundle from embedded assets
+I1025 21:59:08.618480      51 server.go:3370] Auth succeeded, refreshing features and managers
+I1025 21:59:09.290141      51 server.go:3380] State refresh took 671ms
+I1025 21:59:09.290141      51 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:59:09.292158      51 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:59:09.292158      51 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:59:09.292158      51 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:59:09.292158      51 server.go:3418] Retroactive projects migration enabled: true
+I1025 21:59:09.297674      51 projects_migration.go:552] Projects migration already started or completed, skipping
+I1025 21:59:09.298431     264 reconcile_summaries.go:94] [Summaries] reconcile checked 1 conversations, restored 0, cached 1, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1025 21:59:09.302986      51 profiler.go:231] Continuous pprof profiling is disabled.
+I1025 21:59:09.303575      51 server.go:2906] initialized server successfully in 6.9046229s
+I1025 21:59:09.317845     259 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:59:09.321189     259 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:59:09.321189     259 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:59:09.321189     259 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:59:09.321189     271 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1025 21:59:09.330361     271 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:09.331475     271 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1025 21:59:09.332637     271 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:09.332637     271 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1025 21:59:09.335094     271 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:09.335606     271 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1025 21:59:09.335606     271 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1025 21:59:09.336733     271 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:59:09.337445     271 manager.go:88] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1025 21:59:09.337953     271 manager.go:91] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1025 21:59:09.339215     271 manager.go:100] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 22:05:05.584292     738 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8156c920c12f3fb2
+I1025 22:05:05.644143     758 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3e40e972fc779416
+I1025 22:11:05.134564    1177 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4b096974d6db5508
+I1025 22:11:05.198623    1183 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6047668328577ee6
+I1025 22:17:05.277079    1567 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5d2e9abad710f954
+I1025 22:17:05.269736    1618 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8abc4703bd89f5f5
+I1025 22:23:05.245051    2040 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7129da49a5460540
+I1025 22:23:05.317985    2038 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6b43eff52d4830be
+I1025 22:29:05.563453    2479 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7b824e63511ae325
+I1025 22:29:05.567856    2363 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf6e865dc121ed727
+I1025 22:35:05.072598    2895 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc8dcedfb719061f
+I1025 22:35:05.108116    2924 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa56f8c0a1e438887
+I1025 22:41:05.039175    3367 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5b86dbb87240025d
+I1025 22:41:05.233003    3330 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8593511d5260f482
+I1025 22:47:05.195132    3776 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x10d8537215f92435
+I1025 22:47:05.274221    3770 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf235966b258babcb
+I1025 22:53:04.907755    4246 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa73603a0db6b5074
+I1025 22:53:05.215490    4187 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd0250ba09f117133
+I1025 22:59:05.057537    4676 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7ccc682557daeccb
+I1025 22:59:05.316426    4635 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa78dc735e00a2a54
+W1025 23:12:56.545768    4985 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:12:56.545768      45 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:12:56.545768    4985 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:12:56.546913    4985 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:12:56.548274    4954 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:12:56.548953    4954 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:12:56.548953    4954 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:12:56.548953    5081 cache.go:135] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:12:56.548953    5081 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:12:56.548953    5081 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.987392    4993 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:13:02.987392    4993 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:13:02.988492      45 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.988492    4993 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991135    4703 cache.go:135] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:13:02.991135    4703 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991135    4703 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991135    5025 cache.go:135] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991135    5123 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:13:02.991642    5123 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:13:02.991642    5025 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991642    5083 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991642    5025 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1025 23:13:02.991642    5123 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1025 23:13:06.335526      44 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host]
+E1025 23:13:06.335526      41 client.go:72] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: no such host
+I1025 23:14:05.245130    5222 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x60a902b2570a043d
+I1025 23:14:05.338340    5237 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2647261cbff13798
+I1025 23:20:05.072081    5583 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xac032a377b3a03ac
+I1025 23:20:05.154732    5576 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7a3420694fb61d3a
+I1025 23:34:09.800169    5667 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x153d24e7e8305164
+I1025 23:34:10.309153    5663 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3afabdc30fa33b43
+I1025 23:40:04.833517    6071 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x40f8b09672410cc3
+I1025 23:40:04.983566    6073 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfc74cbfa6805c824
+I1025 23:46:04.920426    6541 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbd5b79c3a8140ebc
+I1025 23:46:05.257128    6547 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf5fc6f3e9f30af0f
+I1025 23:52:04.831858    6817 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb816a51c0976415c
+I1025 23:52:04.938674    6980 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6f35d61944d003a3
+I1025 23:58:04.828655    7391 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6876f9845f83a8f7
+I1025 23:58:05.122504    7276 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf536556a1ed8ec27
+I1026 00:04:04.874531    7826 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4908976a4eccff46
+I1026 00:04:04.928889    7774 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xcf40fab158fb07b
+I1026 00:10:04.589817    8257 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1e517e7e74a69db2
+I1026 00:10:05.062362    8189 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x52d0004e35ecf05d
+E1026 00:13:19.514385      45 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1026 00:15:44.011408    8417 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1026 00:15:44.011408    8417 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1026 00:15:44.011408    8417 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1026 00:15:44.011408      45 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1026 00:15:44.032656    7549 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1026 00:15:44.032656    7549 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1026 00:15:44.032656    7549 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1026 00:15:44.032656    8398 cache.go:135] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+E1026 00:15:44.033298    8398 errorreport.go:224] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+W1026 00:15:44.033298    8398 cache.go:163] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: no such host
+I1026 00:16:05.566107    8474 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xab2de847cb256481
+I1026 00:16:05.566107    8442 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3d389f84cd859962
+I1026 00:22:05.100047    8903 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc6525e39677b5e24
+I1026 00:22:05.100962    8752 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x584da2e43bf39e
+I1026 00:28:05.033046    9295 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe94b725d4d90ef6d
+I1026 00:28:05.057131    9293 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x538d3a2b4ad0d9de
+I1026 00:34:05.074061    9740 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb756bbdbcb91fd0c
+I1026 00:34:05.150968    9595 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfbb6d2bd76bb26b8
+I1026 00:40:05.031555   10193 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2d5acf6d126fde94
+I1026 00:40:05.321754   10187 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xacbe0fc9cf597dae
+I1026 00:46:04.543171   10603 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x511ffede5b917281
+I1026 00:46:05.469951   10635 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x572add7785804a37
+I1026 00:52:04.706829   11080 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x141d35c675d5f3b1
+I1026 00:52:04.901652   11057 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd7d742c464898c05
+I1026 00:58:05.033240   11533 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x794f4ebff0e17dfa
+I1026 00:58:05.244498   11558 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5b9fb63e15a52198
+I1026 01:04:04.562333   12036 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb004ba9b6c0bdba1
+I1026 01:04:05.207307   12013 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x91fcfec460001113
+I1026 01:10:05.038542   12287 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd194cc45988c2af2
+I1026 01:10:05.246599   12427 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xad5dd0efa24b4945
+I1026 01:16:05.053556   12859 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x53e274b6b74ff4bc
+I1026 01:16:05.459579   12854 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x558f400b5b6964b4
+I1026 01:22:04.621686   13321 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc68a9c5a6b7a058d
+I1026 01:22:04.800162   13319 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x60ab1f9cef6003aa
+I1026 01:28:05.061713   13730 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x36a5af9f9e503b2c
+I1026 01:28:05.085871   13663 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc37428fbb38edaec
+I1026 01:34:04.888882   14173 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6cdf989e3f64e6c7
+I1026 01:34:04.969286   14212 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7b1ac2bbc6c59123
+I1026 01:40:04.684668   14647 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc3c7512843e5c366
+I1026 01:40:05.080268   14649 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8a6378c7124b334c
+I1026 01:46:05.058430   14635 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x65a2a79921b01482
+I1026 01:46:05.058430   15156 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7c1b8052145ecd09
+I1026 01:52:05.093692   15595 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2af35684f0aa5165
+I1026 01:52:05.098507   15604 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x52172a802286e161

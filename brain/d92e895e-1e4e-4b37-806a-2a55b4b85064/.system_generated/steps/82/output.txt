@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+==================================================
+   Deploying Farmer-to-Buyer Marketplace System   
+==================================================
+Deployer address:      0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Fee Recipient address: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+Arbiter address:       0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+
+[1/4] Deploying UserRegistry...
+✓ UserRegistry deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+[2/4] Deploying MockStablecoin (mUSD, 6 decimals)...
+✓ MockStablecoin deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+[3/4] Deploying Marketplace (Fee: 2%)...
+✓ Marketplace deployed to: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+
+Configuring roles...
+✓ Granted ARBITER_ROLE to 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+
+[4/4] Deploying SupplyChainTracker...
+✓ SupplyChainTracker deployed to: 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+
+✓ Deployment data saved to: C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\deployments\localhost.json
+==================================================
+              Deployment Completed!               
+==================================================

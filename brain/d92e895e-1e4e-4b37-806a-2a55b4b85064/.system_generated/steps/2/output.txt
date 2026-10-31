@@ -1,0 +1,111 @@
+The search for ""Placed -> Shipped -> Delivered -> Completed" solidity" returned the following summary:
+In Solidity, a progression like **`Placed -> Shipped -> Delivered -> Completed`** is typically implemented using an **`enum`** to track state, combined with a **`struct`** and mapping to manage individual orders or shipments[1][2]. 
+
+Here is a complete, standard smart contract implementation demonstrating how to model this lifecycle, restrict who can perform each step (Access Control), and safely transition between statuses:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.26;
+
+contract OrderTracker {
+
+    // 1. Define the lifecycle states using an enum
+    // Internally, they map to integers: Placed(0), Shipped(1), Delivered(2), Completed(3)
+    enum OrderStatus { Placed, Shipped, Delivered, Completed }
+
+    struct Order {
+        uint256 id;
+        address buyer;
+        address seller;
+        address shipper;
+        OrderStatus status;
+    }
+
+    // Mapping from order ID to Order struct
+    mapping(uint256 => Order) public orders;
+    uint256 public orderCounter;
+
+    // Events for tracking changes on frontend/indexers
+    event OrderPlaced(uint256 indexed orderId, address indexed buyer, address indexed seller);
+    event OrderShipped(uint256 indexed orderId, address shipper);
+    event OrderDelivered(uint256 indexed orderId, address receiver);
+    event OrderCompleted(uint256 indexed orderId, address buyer);
+
+    // Modifiers to secure state transitions
+    modifier onlyBuyer(uint256 _orderId) {
+        require(msg.sender == orders[_orderId].buyer, "Not the buyer");
+        _;
+    }
+
+    modifier onlyShipper(uint256 _orderId) {
+        require(msg.sender == orders[_orderId].shipper, "Not the designated shipper");
+        _;
+    }
+
+    modifier onlySeller(uint256 _orderId) {
+        require(msg.sender == orders[_orderId].seller, "Not the seller");
+        _;
+    }
+
+    // Step 1: Placed
+    function placeOrder(address _seller, address _shipper) external returns (uint256) {
+        orderCounter++;
+        orders[orderCounter] = Order({
+            id: orderCounter,
+            buyer: msg.sender,
+            seller: _seller,
+            shipper: _shipper,
+            status: OrderStatus.Placed
+        });
+
+        emit OrderPlaced(orderCounter, msg.sender, _seller);
+        return orderCounter;
+    }
+
+    // Step 2: Shipped (Called by Shipper or Seller depending on design)
+    function shipOrder(uint256 _orderId) external onlyShipper(_orderId) {
+        Order storage order = orders[_orderId];
+        require(order.status == OrderStatus.Placed, "Order must be Placed first");
+
+        order.status = OrderStatus.Shipped;
+        emit OrderShipped(_orderId, msg.sender);
+    }
+
+    // Step 3: Delivered (Called when it arrives at the destination)
+    function deliverOrder(uint256 _orderId) external onlyShipper(_orderId) {
+        Order storage order = orders[_orderId];
+        require(order.status == OrderStatus.Shipped, "Order must be Shipped first");
+
+        order.status = OrderStatus.Delivered;
+        emit OrderDelivered(_orderId, msg.sender);
+    }
+
+    // Step 4: Completed (Confirmed and finalized by the Buyer, often releases escrow funds)
+    function completeOrder(uint256 _orderId) external onlyBuyer(_orderId) {
+        Order storage order = orders[_orderId];
+        require(order.status == OrderStatus.Delivered, "Order must be Delivered first");
+
+        order.status = OrderStatus.Completed;
+        emit OrderCompleted(_orderId, msg.sender);
+    }
+
+    // Helper function to view order status text or value
+    function getOrderStatus(uint256 _orderId) external view returns (OrderStatus) {
+        return orders[_orderId].status;
+    }
+}
+```
+
+### Key Highlights of this Pattern:
+1. **Enums (`OrderStatus`)**: Cleanly layout your lifecycle states[2]. Solidity assigns them integer indexes implicitly starting from `0` (`Placed = 0`, `Shipped = 1`, etc.)[3].
+2. **Strict Flow Control (`require` statements)**: Each transition function ensures the order is in the immediate preceding state (e.g., you cannot jump straight from `Placed` to `Delivered`).
+3. **Role-Based Security**: Modifiers (`onlyBuyer`, `onlyShipper`) ensure unauthorized wallets cannot tamper with or falsely advance a shipment's state. 
+4. **Events**: Emitting events at each step allows decentralized applications (dApps) built with frontend frameworks (like Next.js/Wagmi/Ethers.js) to smoothly listen for state updates and live-update the UI[4][3].
+
+Sources:
+[1] [stackexchange.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1OgkpR3ZEje4AcZS2jTYNC96ZOLbJpy_6TK86Yf94UjGnFrnQSc8VNFCohiZ7p_H8DY2K-QRq8yj74WyDrNXE-oDYuyNbJwR8SBQg16Xj9wppPqiC51b2MQ16BXpV5Fo9AO6mqbzfOgUeyOyn4hBn-hXHL_SdSFFqQZxO8xmhPGuWEBQJL2n58-3VyZK5uDUxlRxkRp5aGAaSfDlPV5mrBtfqIvqUQuz1hRiq0QVo)
+[2] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGj5WtOVAK5LKBnlJCjP4bc7e-X84VpTWqVkjxdiG6Ptwd8yTOkb5FnnRyXYGcsRGdKAWluDnIW0UNef1QrxQ4DjsEmLEOi6OT-YXdB7K53Hfo6AUQVCiW5DzWAUjl9QCGgdPgI41fdw==)
+[3] [ovzuno.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXv6nKWfteNFSUImMGWmzTNuAjPjceH4oAxzQjEX-vGWAkKB2t7EfBcRMPi8EF1K4i-e-w5qekELh8PoRuZ_4QgidKVQcy7JSTiPuYBhv0fV0lkbklw2HZJlr6tR6JEEIG_g1JAlaf)
+[4] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWi-yw78RcMUMN5bylFH5g0IAmF3kzwYKkHuGcbuwCNNqSSukUze_NQ3eYj20hBnMWADzDW_q7zSt_QVEbWrvNRVQSUbbpZZIIEWdYJzqPFxV3a85si1wSHZMqyaKutL8=)
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

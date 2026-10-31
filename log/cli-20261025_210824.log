@@ -1,0 +1,329 @@
+I1025 21:08:24.336989      37 server.go:1771] Starting language server process with pid 11476
+I1025 21:08:24.341948      37 server.go:1827] Language server version: 2.26.0
+I1025 21:08:24.341948      37 server.go:716] Language server will attempt to listen on host localhost
+I1025 21:08:24.368322      37 server.go:731] Language server listening on random port at 50534 for HTTPS (gRPC)
+I1025 21:08:24.368929      37 server.go:739] Language server listening on random port at 56401 for HTTP
+W1025 21:08:24.813621     101 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.813621     101 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.814920     101 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.814920     101 model_configs.go:346] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+I1025 21:08:24.860023     118 store_client.go:714] summary store: starting background reconciliation (trigger=empty_on_open)
+I1025 21:08:24.860662     118 store_client.go:743] summary store: reconcile func returned 0 records, skipping
+W1025 21:08:24.864858     118 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.864858     118 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.864858     118 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.864858     118 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.866066      37 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.866066      37 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.866066      37 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.866066      37 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.866066      37 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.866066      37 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.866066      37 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.866066      37 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.867778      37 server.go:2196] Generated and saved persistent installation UUID: 3d0e5f38-44eb-4ee2-88ca-8c3a09482739
+I1025 21:08:24.870110      37 remote_control_naming.go:130] Generated and saved default remote control hostname: desktop-in91d1f-ultima-signal
+W1025 21:08:24.871240     136 cache.go:135] Cache(peopleInfo): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.871779     136 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.873476      37 defaults.go:732] failed to get cs path: cs path /usr/bin/cs invalid
+I1025 21:08:24.873476     165 migrate.go:50] Migration marker C:\Users\dell\.gemini\config\.migrated does not exist. Attempting migration from AppDataDir C:\Users\dell\.gemini\antigravity.
+I1025 21:08:24.873476      37 manager.go:119] Creating trajectory store manager with proto store and SQLite store
+W1025 21:08:24.875206      37 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.875206     165 migrate.go:158] Migration complete, marked with C:\Users\dell\.gemini\config\.migrated
+E1025 21:08:24.875206      37 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.875793      37 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.875793      37 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.893464      56 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1025 21:08:24.893994      56 manager.go:105] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] starting
+I1025 21:08:24.896176      56 project_uris_migration.go:42] Starting ProjectUrisMigration
+I1025 21:08:24.896176      56 manager.go:125] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] completed successfully in 0s
+I1025 21:08:24.897860      56 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1025 21:08:24.898962      56 manager.go:105] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] starting
+I1025 21:08:24.901950      56 manager.go:125] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] completed successfully in 613.9µs
+I1025 21:08:24.904184      56 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1025 21:08:24.904727      56 manager.go:105] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] starting
+I1025 21:08:24.908195      56 manager.go:125] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] completed successfully in 1.0862ms
+I1025 21:08:24.912404      56 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1025 21:08:24.912404      56 manager.go:88] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is disabled, skipping entirely
+I1025 21:08:24.912912      56 manager.go:88] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1025 21:08:24.912912      56 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1025 21:08:24.943735      37 server.go:1538] Serving UI bundle from embedded assets
+I1025 21:08:24.943735      37 server.go:3370] Auth succeeded, refreshing features and managers
+W1025 21:08:24.943735      37 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.943735      37 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.944286      37 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.944286     123 cache.go:135] Cache(peopleInfo): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.944286      37 server.go:3380] State refresh took 0ms
+I1025 21:08:24.944286      37 server.go:3390] [RemoteControl] Subscription callback triggered.
+E1025 21:08:24.944286     123 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.944286     123 rpcs_plugin_auth.go:106] Not reloading plugin MCP servers: cannot get the signed-in user: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.944875      37 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:08:24.944875      37 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:08:24.944875      37 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:08:24.944875      37 server.go:3418] Retroactive projects migration enabled: false
+W1025 21:08:24.944875      37 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.944875      37 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.944875      37 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.944875      37 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.945454     242 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.945454     242 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.945454     242 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.945454     242 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.946464     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:08:24.946464      37 projects_migration.go:582] No conversations found, marking projects migration as complete
+W1025 21:08:24.946464      37 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.946464      37 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.946464      37 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.946464      37 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.946464     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:08:24.946464     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:08:24.946464     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+W1025 21:08:24.946464     248 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.946464     248 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.948223     248 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.948223     248 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.949235     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:08:24.949235     254 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1025 21:08:24.949235      37 profiler.go:231] Continuous pprof profiling is disabled.
+I1025 21:08:24.950236     251 reconcile_summaries.go:94] [Summaries] reconcile checked 0 conversations, restored 0, cached 0, skipped 0, dropped 0, cancelled false in 1ms (resident: 0 -> 0)
+I1025 21:08:24.950236      37 server.go:2906] initialized server successfully in 612.2389ms
+W1025 21:08:24.950236     251 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.950236     254 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:08:24.950236     254 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+E1025 21:08:24.950236     251 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.950236     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:08:24.951234     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:08:24.951234     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+W1025 21:08:24.951234     251 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.951234     251 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:08:24.951234     254 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:08:24.951234     254 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1025 21:08:24.951234     254 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:08:24.951234     254 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1025 21:08:24.951234     254 manager.go:88] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is disabled, skipping entirely
+I1025 21:08:24.951234     254 manager.go:88] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1025 21:08:24.951234     254 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+W1025 21:08:24.952410     251 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.952410     251 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:24.952410     251 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:24.952410     251 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.108563      62 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.109163      62 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.109163      62 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.109163      62 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.138205     224 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.138205     224 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.138205     224 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.138205     224 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.141229     363 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.141229     363 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.141782     363 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.141782     363 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.142565     388 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:08:45.142565     387 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:08:45.143586     388 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:08:45.143586     387 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+W1025 21:08:45.149437     390 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.149437     390 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.149437     390 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.149437     390 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.625461     339 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.625461     339 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.625461     339 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.625461     339 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.638684     403 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.638684     403 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.639199     403 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.639199     403 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.682528     270 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.682528     270 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:45.682528     270 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:45.682528     270 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:50.093290     420 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:50.093290     420 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:50.093810     420 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:50.093810     420 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:50.094541     422 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:50.094541     422 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:50.094541     422 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:50.094541     422 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1025 21:08:50.094541     424 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1025 21:08:50.094541     424 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1025 21:08:50.094541     424 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1025 21:08:50.094541     424 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1025 21:09:12.451198     418 auth_provider.go:1325] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1025 21:09:12.451198     418 auth_provider.go:1289] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1025 21:09:12.452007     418 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1025 21:09:12.452007     418 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1025 21:09:12.452007     418 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1025 21:09:12.480586     418 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1025 21:09:12.480586     418 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1025 21:09:12.480586     418 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1025 21:09:15.454513     418 http_helpers.go:349] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfa1c9952882fb2ad
+I1025 21:09:17.712153     418 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb17b57f8bb803090
+I1025 21:09:18.751301     418 server.go:3370] Auth succeeded, refreshing features and managers
+W1025 21:09:18.751301     517 cache.go:163] Failed to refresh cache in background: admin controls not applicable
+I1025 21:09:20.995558     432 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5ee41cba2c6ebb34
+I1025 21:09:22.628688     433 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe25a5315f7fd70e
+I1025 21:09:22.678592     418 remote_agent.go:167] Remote agent fastpush pin gate changed: false -> true
+I1025 21:09:22.679180     418 server.go:3380] State refresh took 3927ms
+I1025 21:09:22.680406     418 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.681065     418 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:22.681065     418 server.go:3418] Retroactive projects migration enabled: true
+I1025 21:09:22.684304     418 projects_migration.go:552] Projects migration already started or completed, skipping
+I1025 21:09:22.704943     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:22.704943     418 profiler.go:231] Continuous pprof profiling is disabled.
+I1025 21:09:22.705599     544 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1025 21:09:22.708562     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:22.708562     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.708562     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:22.710640     544 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:09:22.710640     544 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1025 21:09:22.712653     544 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:09:22.712653     544 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1025 21:09:22.714563     544 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1025 21:09:22.714563     544 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1025 21:09:22.715144     544 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1025 21:09:22.720014     544 manager.go:105] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] starting
+I1025 21:09:22.736775     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:22.740325     544 manager.go:125] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] completed successfully in 8.9706ms
+I1025 21:09:22.742730     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:22.743108     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.743108     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:22.747051     544 manager.go:88] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1025 21:09:22.747051     544 manager.go:91] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1025 21:09:22.747509     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:22.752729     544 manager.go:105] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] starting
+I1025 21:09:22.798140     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:22.798140     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.803268     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:22.803268     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:22.814726     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:22.814726     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.814726     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:22.818992     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:22.820258     544 manager.go:125] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] completed successfully in 54.3516ms
+I1025 21:09:22.822119     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:22.822775     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.822775     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:22.825207     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:22.827531     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:22.828041     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:22.828041     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:38.373716     128 server.go:3390] [RemoteControl] Subscription callback triggered.
+I1025 21:09:38.374233     128 server.go:3393] [RemoteControl] RemoteControlEnabled value: false
+I1025 21:09:38.374233     128 server.go:4173] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1025 21:09:38.374233     128 server.go:3872] [RemoteControl] Resolved proxyServerURL: ""
+I1025 21:09:38.631106     288 encoder_embed.go:85] Installing/updating embedded webm_encoder binary to C:\Users\dell\.gemini\antigravity\bin\webm_encoder.exe
+E1025 21:09:38.669399     709 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:09:38.669399     709 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.146312    1119 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.146312    1119 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.146891    1130 cascade_manager.go:1515] LoadTrajectory LoadUnsafe failed for d92e895e-1e4e-4b37-806a-2a55b4b85064: trajectory d92e895e-1e4e-4b37-806a-2a55b4b85064 not found in any store
+E1025 21:10:48.146891    1130 cascade_manager.go:1515] LoadTrajectory LoadUnsafe failed for d92e895e-1e4e-4b37-806a-2a55b4b85064: trajectory d92e895e-1e4e-4b37-806a-2a55b4b85064 not found in any store
+E1025 21:10:48.207136    1130 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.207711    1130 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.209404    1130 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.209404    1130 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.211069    1130 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.211069    1130 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.212758    1130 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.212758    1130 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:10:48.263663    1237 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:d92e895e-1e4e-4b37-806a-2a55b4b85064 cascade_send_latency_ms:1 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:2 trajectory_id:b7371386-0c9b-4058-8ed8-aad123432d5d]
+E1025 21:10:48.277871    1239 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.277871    1239 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.278502    1239 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.279142    1239 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.279142    1239 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.279142    1239 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.280381    1239 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:10:48.280381    1239 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:10:48.299771    1239 monitor_config_manager_external.go:53] externalMonitorConfigManager: initialized with embedded config (3 monitors)
+I1025 21:10:48.299771    1239 monitoring.go:401] [Sonar] Resolved active tags: [policy_guardian sonar_skip_tags] (detected surface: "")
+I1025 21:10:48.299771    1239 monitoring.go:401] [Sonar] Resolved active tags: [policy_guardian sonar_skip_tags] (detected surface: "")
+I1025 21:10:50.491365    1209 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x995d207cf1445cbb ResponseID: ASPeavOFLZ6r4-EP7LuXqQg
+I1025 21:10:56.688596    1414 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc8af61255c38627 ResponseID: AiPeatDvCb7djuMP6pWh6AE
+I1025 21:11:38.001423    1548 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0x5765c46eb6f1618b
+I1025 21:11:44.862406    1594 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x27c57aac913b42ea ResponseID: MyPeaoHaJ7mKjuMPgf_4uAw
+I1025 21:12:41.595510    1741 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0x6f8ce5bb9c9ae0a2
+I1025 21:12:45.704765    1815 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x167b11230451afd3 ResponseID: cyPeaseBJ7Lh1_oPga-r0QM
+I1025 21:12:51.236211    1761 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0xb3e093a7a8d18c6c
+I1025 21:13:01.049964    1792 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc43d581db4727739 ResponseID: fCPeat6dN4m3z7sPiKT4iAU
+I1025 21:14:26.914414    2058 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x17f05c1f244ff716
+I1025 21:14:27.001734    2083 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdcc66739c2e365c4
+I1025 21:15:00.652294    2161 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:generateContent Trace: 0x4361ca96f796b4ba
+I1025 21:15:13.873083    2208 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1a4d2d32730707b ResponseID: _iPearOHOaLi3LUP5oi48A4
+W1025 21:16:11.844706    2373 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:16:19.202835    2403 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe0a1a8c5d820b2da ResponseID: RyTearG6JbyPz7sP9amt2AU
+W1025 21:16:19.658106    2401 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:16:32.066873    2471 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xacd11ffc509d76b9 ResponseID: UyTeasuqEt_nqfkP2e7duAs
+I1025 21:16:41.215910    2551 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5d81c23f84989d75 ResponseID: WSTeaofGNdzC1_oP0pmvoAY
+I1025 21:16:46.075567    2599 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ba636d46e34b4c4 ResponseID: YyTeavjuAbeD3LUPs6bB0A4
+W1025 21:16:46.387175    2623 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:17:02.102520    2667 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x81f18d76db75b88e ResponseID: ciTearG9FMmGjuMP97LdoQo
+I1025 21:17:11.182524    2720 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4eb1ddfe3f2c61f5 ResponseID: dyTearSAKYWnjuMPl7uzkAo
+I1025 21:17:33.543370    2826 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72abf5949edc48a1 ResponseID: kSTeaqmBH77djuMP6pWh6AE
+I1025 21:17:44.635775    2867 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2572d9a490b294ba ResponseID: lyTeav-2JsbCjuMP-ODamQk
+I1025 21:17:50.381686    2917 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa4deaed634c227de ResponseID: oiTeas6CGIWnjuMPl7uzkAo
+I1025 21:17:55.450585    2975 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4f6052f54b7d318c ResponseID: qCTeasiaGafA4-EPgv2aiQk
+I1025 21:18:02.124213    3010 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3c34d0686f8a5914 ResponseID: rSTeauuSMNvUz7sPsdLm8Q4
+I1025 21:18:11.547309    3055 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa776dc768e9060b9 ResponseID: syTeaq_gFdjcjuMPobqbmAw
+I1025 21:18:46.769147    3158 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x200866b96d985aa1 ResponseID: 2STeavPCBLKfjuMPh5-9wA0
+I1025 21:18:56.402276    3210 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x570b0e8441619d3a ResponseID: 4CTeatSRH-r04-EPzZLrmQo
+I1025 21:19:09.864660    3268 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e8fb5a06a5bfef1 ResponseID: 8iTeavucCvXFg8UP1OvwsAk
+I1025 21:19:15.894854    3318 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6ed08dbb951683e6 ResponseID: 9yTeasSuNbLh1_oPga-r0QM
+I1025 21:19:20.749545    3369 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x18b7b72284a1ba06 ResponseID: _iTeauDwC-DJ3LUP447C2A4
+I1025 21:19:25.184344    3410 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa3f71adfa2681c6f ResponseID: AiXeao_dDO3l4t4P58mV6AU
+E1025 21:19:25.280160    3470 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:19:25.280748    3470 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:20:23.946844    3537 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xac968eb21ce27498
+I1025 21:20:26.752963    3545 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8fd9e36e616bacb7
+I1025 21:25:26.649046    3936 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2b8cf0af486a83b2
+I1025 21:26:26.447641    4005 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x60c3cec5a21ed236
+I1025 21:31:27.184922    4426 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x40386be986c947fe
+I1025 21:32:26.280492    4521 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbd8ea19a34707408
+W1025 21:36:06.998412    3470 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:36:26.736694    4905 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdd181573e0268429 ResponseID: -yjeaqXmHsuIqfkP7M-usQw
+I1025 21:36:36.272250    4933 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd469dce72c2bd7fd
+I1025 21:36:39.509017    4990 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xec5f0ff81ea1a8c3 ResponseID: DCneasbjHbyPz7sP9amt2AU
+I1025 21:37:14.202556    5060 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x37153e0bde1e1bbc ResponseID: Eynear-pNMXb4t4PlKjtyA4
+I1025 21:37:19.124609    5143 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x13b9d872f1fb05f ResponseID: NCneasaEJ7egjuMPr5D7uAk
+I1025 21:37:32.026813    5188 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x91db46c9a7cbe426 ResponseID: OSneaoqmC7v54-EPstLQgAo
+I1025 21:37:33.788373    5238 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd3916af1aa7eccb4
+I1025 21:38:01.530467    5268 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe466d1a2c8f635f5 ResponseID: RineavuuE828juMPu6PCsQU
+I1025 21:38:16.899597    5369 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x20263c3ffb93147f ResponseID: ZCnearzaBsXb4t4PlKjtyA4
+I1025 21:38:28.687193    5434 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9863ab7e4e7c4ef ResponseID: eSneaqbiO-DJ3LUP447C2A4
+W1025 21:38:28.823669    4608 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:38:38.296224    5481 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2c14e65ea40f1c04 ResponseID: gineaqOpKM6ajuMPhvfGqAk
+W1025 21:38:38.831323    5507 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:38:51.608969    5535 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x14db5804b2ab43a ResponseID: jSneaoyNE7fe4-EPhYXauAw
+W1025 21:38:51.666077    5562 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:39:00.932107    5613 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf2301bc8038fe03a ResponseID: mSneaoL8CdOwz7sPgKLm0Q0
+W1025 21:39:00.951040    5623 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:39:11.571284    5658 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdf6f7a126de436e7 ResponseID: oyneasqbHcPq4t4PzsCD2A4
+E1025 21:39:12.069270    5690 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:39:12.069270    5690 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+W1025 21:42:13.558891    5690 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:42:15.909151    5862 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x36307400b9afdad1
+I1025 21:42:31.558208    6056 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7ba6367b23830bf5 ResponseID: bCreapWDI6HGjuMPpcbEmQk
+I1025 21:42:36.419330    6075 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x81b96d9d74ff9cf6 ResponseID: cSreauWmKNy84-EP5_SdsQ0
+W1025 21:42:36.919232    6097 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:42:38.220925    6091 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x83bbbe1db73ac15a
+I1025 21:42:45.361644    6183 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7038753edbd7fef4 ResponseID: eirearSCCNetjuMP_vi0iQo
+E1025 21:42:45.720297    6171 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:42:45.720297    6171 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+W1025 21:43:02.341630    6171 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:43:17.572711    6310 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x131578f2cf5ad657 ResponseID: mSreasXUIOi13LUPq6-syAU
+E1025 21:43:17.590436    6317 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:43:17.590436    6317 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+W1025 21:43:19.657994    6317 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:43:28.288639    6392 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd0fc924b066fb35a ResponseID: pCreaq6APcHI3LUP-q2IgAU
+E1025 21:43:28.619878    6421 projects.go:204] projects store: project_store_get_standalone_read_failed: GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+E1025 21:43:28.619878    6421 errorreport.go:224] GetProject: failed to read standalone project file: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+W1025 21:43:30.676302    6421 permission_grant_store.go:112] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file C:\Users\dell\.gemini\config\projects\outside-of-project.json: open C:/Users/dell/.gemini/config/projects/outside-of-project.json: The system cannot find the file specified.
+I1025 21:43:43.474262    6487 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeab88219f4a909cf ResponseID: sCreatHlGqTc4-EPy6TiuQw
+I1025 21:43:50.035480    6535 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd68481de305c0dbc ResponseID: uSreavWYGI7Rz7sPqdWO-QQ
+I1025 21:47:26.489650    7010 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x85b2e76c7b453b33
+I1025 21:48:26.889793    7108 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x44d2396e9fe7e447
+I1025 21:53:27.126238    7529 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xac22d6db7d231288
+I1025 21:54:26.726677    7610 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3931ff1e9b12e278

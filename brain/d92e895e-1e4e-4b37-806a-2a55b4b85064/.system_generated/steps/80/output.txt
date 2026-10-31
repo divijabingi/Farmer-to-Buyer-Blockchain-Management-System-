@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+
+
+  Farmer-to-Buyer Marketplace & Escrow System
+    √ 1. Registration and verification works
+    √ 2. Only a verified farmer can list a batch (47ms)
+    √ 3. Full happy path: list -> order -> ship -> deliver -> farmer paid (check platform fee math)
+    √ 4. Unverified buyer can't order
+    √ 5. Can't order more than the available quantity
+    √ 6. Can't skip states (e.g. deliver before ship)
+    √ 7. Buyer cancels before shipment -> full refund
+    √ 8. Can't cancel after shipment
+    √ 9. Auto-release after 7 days (use hardhat time helpers)
+    √ 10. Dispute -> arbiter split resolution pays both sides correctly
+    √ 11. Tracker records checkpoints and returns the history
+    √ 12. Double confirm / double withdrawal fails
+
+
+  12 passing (6s)
+

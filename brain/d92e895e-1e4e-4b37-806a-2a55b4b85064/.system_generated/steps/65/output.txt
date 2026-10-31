@@ -1,0 +1,21 @@
+Command exited with code 1.
+
+Command output:
+An unexpected error occurred:
+
+Error: EPERM: operation not permitted, mkdir 'C:\Users\dell\AppData\Roaming\hardhat-nodejs'
+    at Object.mkdirSync (node:fs:1350:26)
+    at mkdirsSync (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:31:9)
+    at Object.mkdirsSync (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:36:14)
+    at getConfigDirSync (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\src\internal\util\global-dir.ts:22:6)
+    at getVarsFilePath (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\src\internal\util\global-dir.ts:145:20)
+    at new HardhatContext (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\src\internal\context.ts:22:55)
+    at HardhatContext.createHardhatContext (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\src\internal\context.ts:35:17)
+    at main (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\src\internal\cli\cli.ts:215:32)
+    at Object.<anonymous> (C:\Users\dell\.gemini\antigravity\scratch\farmer-marketplace\node_modules\hardhat\src\internal\cli\cli.ts:482:1)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14) {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'mkdir',
+  path: 'C:\\Users\\dell\\AppData\\Roaming\\hardhat-nodejs'
+}
